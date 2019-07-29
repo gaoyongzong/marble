@@ -1,9 +1,11 @@
 {
   "name": "marblejs",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "前端接口数据模拟",
   "main": "src/index.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "bin": {
     "marble-cli": "dist/cli/index.js"
   },
@@ -14,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaoyonggege/marble.git"
+    "url": "git+https://github.com/gaoyongzong/marble.git"
   },
   "keywords": [
     "fe",
@@ -22,12 +24,12 @@
     "typescript",
     "nodejs"
   ],
-  "author": "gaoyonggege@github.com",
+  "author": "gaoyongzong@github.com",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/gaoyonggege/marble/issues"
+    "url": "https://github.com/gaoyongzong/marble/issues"
   },
-  "homepage": "https://github.com/gaoyonggege/marble#readme",
+  "homepage": "https://github.com/gaoyongzong/marble",
   "dependencies": {
     "chalk": "^2.4.2",
     "file-exists": "^5.0.1",
